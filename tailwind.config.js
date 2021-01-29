@@ -1,11 +1,6 @@
 module.exports = {
   purge: [],
-  darkMode: false, // or 'media' or 'class'
-  theme: {
-    fontFamily: {
-      sans: ["PT Sans"],
-    },
-  },
+  darkMode: false,
   variants: {
     animation: ["responsive", "motion-safe", "motion-reduce"],
   },

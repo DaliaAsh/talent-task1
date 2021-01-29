@@ -9,9 +9,7 @@ function loadInitialMovies() {
         <div class="text-center text-2xl font-sans font-bold">${item.Title}</div>
       </div>`;
       });
-      document.getElementById("movies-container").innerHTML = filteredMovies;
-      console.log(filteredMovies);
+      $("#movies-container").html(filteredMovies);
     }
   );
 }
-$(document).ready(loadInitialMovies);
