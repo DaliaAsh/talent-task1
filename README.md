@@ -6,3 +6,12 @@ After clone the folder from the Git Hub , we can use live-server to run the proj
 
 
 ![setup](https://user-images.githubusercontent.com/46220562/106352235-eee7c200-62e9-11eb-8fce-fa40a3e5350f.PNG)
+
+## Landing Page Sections
+
+### Header Section 
+
+### Search Movies Section
+
+### Footer Section
+
