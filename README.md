@@ -29,3 +29,9 @@ or it will show error message if their is no matching results
 
 ![setup](https://user-images.githubusercontent.com/46220562/106352376-3e7abd80-62eb-11eb-8d3c-769d155287ff.PNG)
 
+## CodeSandbox
+
+You can view the project in the follwoing codesandbox link:
+
+https://codesandbox.io/s/eloquent-kapitsa-pw20z?file=/public/index.html
+
