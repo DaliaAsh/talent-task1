@@ -27,7 +27,7 @@
             />
           </svg>
         </div>
-        <div class="font-sans text-red-600 font-semibold text-lg">
+        <div class="font-mono text-red-600 font-semibold text-lg">
           CINEMA WORLD
         </div>
       </div>
@@ -45,7 +45,7 @@
             />
           </svg>
         </div>
-        <div class="font-sans text-white">
+        <div class="text-white font-mono">
           Los Angeles ,Hollywood Boulevard Street
         </div>
       </div>
@@ -61,7 +61,7 @@
         class="w-full md:w-6/12"
       />
       <div class="m-auto">
-        <div class="flex flex-row align-middle">
+        <div class="flex flex-row align-middle font-mono">
           <div>
             <span class="text-6xl md:text-8xl text-red-500">3</span
             ><span class="text-6xl md:text-8xl text-yellow-300">D</span>
@@ -85,15 +85,18 @@
       </div>
     </section>
     <section class="bg-gray-800 w-full text-center p-8 hidden md:inline-block">
-      <h1 class="text-7xl text-white">Let's Explore Movies together!</h1>
+      <h1 class="text-7xl text-white font-mono">
+        Let's Explore Movies together!
+      </h1>
     </section>
     <section class="bg-gray-800 w-full flex-col align-middle justify-center">
       <div class="p-8 w-full">
         <input
-          class="rounded w-11/12 md:w-6/12 justify-center p-2 ml-auto mr-auto block"
+          class="rounded w-11/12 md:w-6/12 justify-center p-2 ml-auto mr-auto block font-mono"
           placeholder="Search Movie By Name"
           id="search-input"
           oninput="searchMovies()"
+          autofocus
         />
       </div>
 
@@ -103,12 +106,12 @@
       ></div>
     </section>
 
-    <section class="w-full bg-white">
+    <section class="w-full bg-white font-mono">
       <div class="mb-12">
         <h1 class="text-black text-5xl font-bold text-center mt-12">
           Cinema Facilities
         </h1>
-        <div class="w-8 h-8 m-auto mt-12">
+        <div class="w-12 h-12 m-auto mt-12">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -169,7 +172,9 @@
       </div>
     </section>
     <footer class="bg-gray-900 w-full p-10">
-      <div class="w-full sm:flex-col md:flex md:flex-row md:justify-center">
+      <div
+        class="w-full sm:flex-col md:flex md:flex-row md:justify-center font-mono"
+      >
         <div class="flex flex-col w-full h-full md:w-3/12">
           <div class="flex flex-row">
             <div class="w-7 h-7">
@@ -268,7 +273,7 @@
           </div>
         </div>
       </div>
-      <div class="text-white font-semibold mt-6 w-full text-center">
+      <div class="text-white font-semibold mt-6 w-full text-center font-mono">
         Copyright 2021 Talent Program
       </div>
     </footer>
